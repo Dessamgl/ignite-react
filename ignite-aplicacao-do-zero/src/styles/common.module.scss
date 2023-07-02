@@ -1,0 +1,26 @@
+.container {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem
+}
+
+.preview {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 5.5rem;
+  background: var(--gray-100);
+  color: var(--gray-900);
+  text-align: center;
+  border-radius: 4px;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.85);
+  }
+}
